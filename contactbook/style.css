@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+table {
+    font-size: 15px;
+    font-family: Open Sans, Arial;
+    width: 100%;
+}
+
+#main {
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+#main img {
+    display: block;
+    margin: 0 auto;
+}
+
+#personlist {
+    height: 700px;
+    width: 55%;
+    margin: 5% auto;
+    background-color: lightsteelblue;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, .8);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, .8);
+    box-shadow: 0px 0px 18px 0px rgba(50, 50, 50, .8);
+    overflow: auto;
+}
+
+.person {
+    height: 65px;
+    width: 90%;
+    background-color: lightgrey;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: none;
+    border: groove 1px lightblue;
+
+}
+
+.photo {
+    width: 20%;
+    float: left;
+}
+
+.persondata {
+    height: 65px;
+    width: 40%;
+    float: left;
+}
+
+.editbutton {
+    height: 65px;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+
+.deletebutton {
+    height: 65px;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+
+.deletebutton:hover {
+    border: 1px solid black;
+    background-color: cadetblue;
+}
+
+.editbutton:hover {
+    border: 1px solid black;
+    background-color: tan;
+}
+
+a {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: -2%;
+    cursor: pointer;
+}
+
+.form input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+#edit {
+    display: block;
+    margin-left: 45%;
+}
+
+
+
+

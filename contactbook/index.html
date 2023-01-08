@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Telephone book</title>
+    <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+    <script src="jquery-ui-1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui-1.11.4/jquery-ui.css">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="addC()">
+<div id="regpopup" title="Add registration data">
+    <form name="form" class="form">
+        <input type="text" name="name" placeholder="Name"> <br>
+        <input type="text" name="surname" placeholder="Surname"> <br>
+        <input type="text" name="telephone" placeholder="Telephone"> <br>
+        <input type="text" name="email" placeholder="Email"> <br>
+        <input type="button" value="Edit" id="edit">
+        <input type="button" value="APPLY" id="OK">
+        <input type="button" value="CANCEL" id="CANCEL">
+        <!--<input type="button" value="delete" onclick="erase()">
+        <input type="button" value="save" onclick="save()">
+        <input type="button" value="clear" onclick="clear2()">-->
+    </form>
+</div>
+<div id="main">
+    <div id="personlist">
+        <div class="person">
+            <div class="photo"><img src="photo.svg" height="60px"></div>
+            <div class="persondata">
+                <table>
+                    <tr>
+                        <td class="nameP"></td>
+                        <td class="surnameP"></td>
+                    </tr>
+                    <tr>
+                        <td class="telephoneP"></td>
+                        <td class="emailP"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="editbutton"><img src="edit.svg" width="60px" height="60px"></div>
+            <div class="deletebutton"><img src="delete.svg" width="60px" height="60px"></div>
+        </div>
+    </div>
+    <a id="addpic"><img src="addcontact.svg" width="50px" height="50px"></a>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+#field {
+    width: 800px;
+    height: 800px;
+    background-image: url("image.jpg");
+    opacity: .4;
+}
+
+
+.oneSquare {
+    height: 100px;
+    width: 100px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}

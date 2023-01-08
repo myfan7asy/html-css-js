@@ -1,0 +1,11 @@
+.tailStyle {
+    height: 20px;
+	width: 20px;
+	background-color: #31B404;
+	position: relative;
+}
+
+input[type=button] {
+	display: block;
+	margin: 0 auto;
+}
