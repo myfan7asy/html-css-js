@@ -1,11 +1,11 @@
 # html-css-js
 Home study resulted into some tiny projects, related to HTML, CSS and JS (reupload of old repo)
 
-**landing_page**
+**landingpage**
 Simple landing page.
 For opening - download files and run "index.html".
 
-**contactbook_app**
+**contactbook**
 Small contact book.
 
 Regular expressions for filling text fields of pop-up window:
@@ -15,11 +15,11 @@ For field "email" = /^[a-z,0-9,A-Z,_]{5,20}@[a-z,0-9]{1,20}.[a-z]{2,5}$/
 
 For opening - download files and run "index.html".
 
-**puzzle_game**
+**puzzle**
 Just a puzzle.
 Download all files and launch "index.html".
 
-**snake_game**
+**snake**
 Use keyboard arrows for "Snake" control.
 Some game features are still in progress.
 For launching game - download all files and run "index.html".
